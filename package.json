@@ -4,5 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/marufkhan20/mernspace-c-auth-service.git",
   "author": "Maruf",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "typescript": "^6.0.3"
+  }
 }
