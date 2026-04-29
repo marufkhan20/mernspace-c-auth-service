@@ -7,7 +7,8 @@
     "format:fix": "prettier . --write",
     "format:check": "prettier . --check",
     "lint:check": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint:fix": "eslint . --fix",
+    "prepare": "husky"
   },
   "author": "Maruf",
   "license": "MIT",
@@ -15,6 +16,8 @@
     "@eslint/js": "^10.0.1",
     "@types/node": "^25.6.0",
     "eslint": "^10.2.1",
+    "husky": "^9.1.7",
+    "pinst": "^3.0.0",
     "prettier": "3.8.3",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.59.1"
