@@ -4,14 +4,19 @@
   "main": "index.js",
   "repository": "https://github.com/marufkhan20/mernspace-c-auth-service.git",
   "scripts": {
-    "format:fix" : "prettier . --write",
-    "format:check" : "prettier . --check"
+    "format:fix": "prettier . --write",
+    "format:check": "prettier . --check",
+    "lint:check": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "author": "Maruf",
   "license": "MIT",
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@types/node": "^25.6.0",
+    "eslint": "^10.2.1",
     "prettier": "3.8.3",
-    "typescript": "^6.0.3"
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.59.1"
   }
 }
