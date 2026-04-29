@@ -1,6 +1,7 @@
 {
   "name": "auth-service",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "repository": "https://github.com/marufkhan20/mernspace-c-auth-service.git",
   "scripts": {
@@ -28,5 +29,8 @@
       "npm run format:fix",
       "npm run lint:fix"
     ]
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2"
   }
 }
